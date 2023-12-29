@@ -1,0 +1,22 @@
+.btn {
+	font-size: 20px;
+	font-weight: 400;
+	letter-spacing: normal;
+	line-height: 30px;
+	text-decoration: none solid rgb(255, 255, 255);
+	text-align: center;
+	background-color: #dc3545;
+	color: #fff;
+	border: 1px solid #dc3545;
+	transition: color 0.15s ease-in-out 0s, background-color 0.15s ease-in-out 0s, border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+	border-radius: 4.8px;
+}
+
+.btn:hover {
+  background: #c82333;
+  border-color: #c82333;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(225,83,97,.5);
+}
